@@ -1,97 +1,77 @@
+body {
+  margin-top: 100px;
+}
+
 .container1, .container2, .container3 {
-  position: relative;
-  margin-left: 400px;
-  margin-bottom: 10px;
+  margin-left: 200px;
+ /* margin-bottom: 2px;*/
+  overflow: hidden;
+  margin-bottom: 0px;
+  width: 450px;
+  box-shadow: 8px 2px 3px rgba(6,0,0,0.25);
+  border-radius: 4px;
+  background:#f7f7f7;
+  border-color: 1pt black;
+  font-family: 'Raleway', sans-serif;
 }
-
-.container1 p {
-  width: 400px;
-  display: block;
-  position: absolute;
-  top: 60px;
-}
-
-.container2 p {
-  width: 400px;
-  display: block;
-  position: absolute;
-  top: 200px;
-}
-
-.container3 p {
-  width: 400px;
-  display: block;
-  position: absolute;
-  top: 345px;
-}
-
-.box1, .box2, .box3 {
-  width: 400px;
-  height: 40px;
-  background-color: blue;
-}
-
-.box1 {
-  position: absolute;
-  top: 20px;
+h1 {
+  margin-bottom: 0px;
+  font-size: 50px;
+  margin-top: 0px;
+  width: 450px;
+  color: white;
+  padding-left: 12px;
+  background-color: navy;
+  background-width: 400px;
   transition: all 1s ease;
 }
-
-.box1:hover {
+.container1:hover h1 {
     background-color: orange;
 }
-
-.box2 {
-  position: absolute;
-  top: 170px;
-  transition: all 1s ease;
+.content1 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-left: 12px;
+  color: black;
+  height: 0;
+  transition: all 1.5s ease;
 }
-
-.box2:hover {
+.open1 {
+  height: 100px;
+}
+.close1 {
+  height: 0;
+}
+.container2:hover h1 {
     background-color: orange;
 }
-
-
-.box3 {
-  position: absolute;
-  top: 312px;
-  transition: all 1s ease;
+.content2 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-left: 8px;
+  color: black;
+  height: 0;
+  transition: all 1.5s ease;
 }
-
-.box3:hover {
+.open2 {
+  height: 100px;
+}
+.container3:hover h1 {
     background-color: orange;
 }
-
-
-.container1 h1 {
-  font-family: "Open Sans";
-  position: absolute;
-  top: 5px;
-  padding-left: 10px;
-  color: white;
-  margin-bottom: none;
+.content3 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-left: 8px;
+  color: black;
+  height: 0;
+  transition: all 1.5s ease;
 }
-
-.container2 h1 {
-  font-family: "Open Sans";
-  position: absolute;
-  top: 146px;
-  padding-left: 10px;
-  color: white;
+.open3 {
+  height: 100px;
 }
-
-.container3 h1 {
-  font-family: "Open Sans";
-  position: absolute;
-  top: 288px;
-  padding-left: 10px;
-  color: white;
-}
-
 .box1 {
   position: absolute;
   top: 30px;
-/*  transition: property duration timing delay;*/
-  transition: all .5s ease;
 }
 
