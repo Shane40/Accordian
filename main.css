@@ -28,23 +28,40 @@
 .box1, .box2, .box3 {
   width: 400px;
   height: 40px;
-  background-color: aqua;
+  background-color: blue;
 }
 
 .box1 {
   position: absolute;
   top: 20px;
+  transition: all 1s ease;
+}
+
+.box1:hover {
+    background-color: orange;
 }
 
 .box2 {
   position: absolute;
   top: 170px;
+  transition: all 1s ease;
 }
+
+.box2:hover {
+    background-color: orange;
+}
+
 
 .box3 {
   position: absolute;
   top: 312px;
+  transition: all 1s ease;
 }
+
+.box3:hover {
+    background-color: orange;
+}
+
 
 .container1 h1 {
   font-family: "Open Sans";
@@ -77,9 +94,4 @@
 /*  transition: property duration timing delay;*/
   transition: all .5s ease;
 }
-.box1: hover {
-    width: 400px;
-    height: 400px;
-    background-color: green;
-  
-}
+
