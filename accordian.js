@@ -1,4 +1,4 @@
-console.log("Work Accordian");
+console.log("Accordian");
 
 // $('.box1').on('click', function (x) {
 // 	alert('hello');
@@ -17,10 +17,3 @@ $('.container3').on('click', function () {
 	$('.content3').addClass('open3');
 	
 });
-
-// Set height of div to 0;
-// overflow: hidden ... p
-
-// target container in jquery
-
-
